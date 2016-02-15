@@ -1,1 +1,5 @@
-test
+color
+partyJoy-text: #c34ff2
+log-left: #44BBF8
+log-middle: #ed00ff
+log-right: #ea46a2
