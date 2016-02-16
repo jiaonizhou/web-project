@@ -1,0 +1,76 @@
+
+.sign-head{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sign-up-input .sign-in-input{
+  width: 50%;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 0 15px 2px;
+  font-size: 15px;
+  background: white;
+  border: 3px solid #ebebeb;
+  border-color: #000000;
+  border-radius: 4px;
+}
+
+.sign-up-input .sign-in-input:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.container {
+     width: 50%;
+     margin: auto;
+     clear: both;
+     padding-top: 50px;
+     padding-right: 30px;
+     padding-bottom: 50px;
+     padding-left: 30px;
+
+ }
+ .container input {
+     width: 100%;
+     height: 50px;
+     clear: both;
+ }
+
+
+ .SignUp{
+     border: 2px solid red;
+     width:75%;
+     margin: auto;
+     background-color:white;
+     padding-top: 50px;
+     padding-right: 30px;
+     padding-bottom: 50px;
+     padding-left: 30px;
+ }
+
+ .SignIn {
+     border: 2px solid red;
+     width:75%;
+     margin: auto;
+     background-color:white;
+     padding-top: 50px;
+     padding-right: 30px;
+     padding-bottom: 50px;
+     padding-left: 30px;
+ }
+
+
+ #submitButton1{
+   width: 40%;
+   height: 30px;
+   float: right;
+   font-size: 18px;
+ }
+
+ #userInfo{
+   font-size: 18px;
+
+ }
