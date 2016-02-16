@@ -1,1 +1,21 @@
-<!DOCTYPE css>
+
+#logoImage {
+	height: auto;
+	width: 15%;
+	text-align: center;
+
+}
+.logo {
+	width: 80%
+	height: 10%;
+	float:left
+	
+	
+}
+.signInUp {
+	width: 20%;
+	height: 10%;
+	float:left
+	/*display: inline;
+	border: #c34ff2 solid 1px;*/
+}
