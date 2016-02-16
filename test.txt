@@ -3,3 +3,22 @@ partyJoy-text: #c34ff2
 log-left: #44BBF8
 log-middle: #ed00ff
 log-right: #ea46a2
+
+1: Page1HomePage.html
+2: Page2Examples.html
+3: Page3HowTo.html
+4: Page4SignUp.html
+5: Page5SignIn.html
+6: Page6MyAccount.html
+7: Page7EventDetails.html
+8: Page8Bookmark.html
+9: Page9Step1.html
+10: Page10Step2.html
+11: Page11Step3.html
+12: Page12Step4.html
+13: Page13Step5.html
+14: Page14Step6.html
+15: Page15Step7.html
+16: Page16CheckOut.html
+17: Page17Payment.html
+18: Page18Confirmation.html
