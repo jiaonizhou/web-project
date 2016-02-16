@@ -8,10 +8,27 @@ img {
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 
+p {
+	color: #c34ff2;
+}
+
+h2 {
+	color: #c34ff2;
+}
+
+
+#details:before {
+	padding-top: 20px;
+}
+
 #details {
+	padding-top: 10px;
+	padding-right: 20px;
 	background-color: lightgrey;
 	border-radius: 20%;
+	padding-bottom: 10px;
 }
+
 
 .inforDetails {
 	list-style: none;
@@ -36,9 +53,6 @@ img.pull-left { margin: 12px 18px 0px 0px; }
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.example-caption .btn {
-  text-shadow: none;
-}
 
 
 /* default ------------------------------------------------------------- */
