@@ -1,32 +1,88 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
+	<title>PartyJoy | Homepage</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="MyStyle.css">
+    <link rel="stylesheet" type="text/css" href="Css/XinStyle.css">
+	<script src="Js/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript" src="Js/pptBox.js"></script>
+
 
 </head>
 <body>
 	<header class="container-fluid">
 		<div class="logo">
-			<img id="logoImage" src="Image/aaa.png" alt="logo"  height="100px" />
-
+			<img id="logoImage" src="Image/headerLogoImage.png" alt="logo" />
 		</div>
 		<div class="signInUp">
 			<ul class="signInUpList">
-				<li><a title="Login to PartyJoy" href="/logInPage.html">Log In</a></li>
-				<li><a title="Signup to PartyJoy" href="/signUpPage.html">Sign Up</a></li>	
+				<li id="logIn"><a title="Login to PartyJoy" href="/logInPage.html">Log In</a></li>
+				<li id="signUp"><a title="Signup to PartyJoy" href="/signUpPage.html">Sign Up</a></li>	
 			</ul>
 		</div>
-
 	</header>
 	<nav>
-		
+		<ul class="NavList">
+			<li ><a class="Nav" href="Page1HomePage.html">Home</a></li>
+			<li >
+
+  				<a class="Nav" href="Page9Step1.html">Occassion
+  					
+  				</a>
+  				<ul>
+               <li><a href="#">SilverBack</a></li>
+               <li><a href="#">Font Deck</a></li>
+           </ul>
+			</li>
+			<li><a class="Nav" href="Page11Step3.html">Venue</a></li>
+			<li ><a class="Nav" href="Page12Step4.html">Catering</a></li>
+			<li ><a class="Nav" href="Page13Step5.html">Decoration</a></li>
+			<li ><a class="Nav" href="Page14Step6.html">Service</a></li>
+			<li><a class="Nav" href="Page15Step7.html">Dress</a></li>
+			<li><a class="Nav" href="Page2Examples.html">Exemple</a></li>
+			<li ><a class="Nav" href="">More</a></li>
+		</ul>
 	</nav>
-	<footer>
+	<div id="xxx" style="float:left"  >
+			 <script>
+			 var box =new PPTBox();
+			 box.width = 885; //宽度
+			 box.height = 365;//高度
+			 box.autoplayer = 3;//自动播放间隔时间
 		
+			 //box.add({"url":"图片地址","title":"悬浮标题","href":"链接地址"})
+			 box.add({"url":"Image/page2ExampleBirthday.jpg","href":"#","title":""})
+			 box.add({"url":"Image/page2ExampleHoliday.jpg","href":"#","title":""})
+			 box.add({"url":"Image/page2ExampleWeddingHL.jpg","href":"#","title":""})
+			 box.add({"url":"Image/page2HouseWarming.jpg","href":"#","title":""})
+			 box.show();
+			</script>
+	</div>
+	 
+    
+
+	<div class="howTo">
+		<a href="Page3HowTo.html">How to</a>
+	</div>
+
+	<div class="getStarted">
+		<a href="Page9Step1.html">Get Started</a>
+	</div>
+
+	<footer>
+		<div class="footContainer">
+		<ul class="footBar">
+			<li class="footIcon"><a class="foot" href=".html">About Us</a></li>
+			<li class="footIcon"><a class="foot" href=".html">Contact Us</a></li>
+			<li class="footIcon"><a class="foot" href=".html">Career</a></li>
+			<li class="footIcon"><a class="foot" href=".html">Help</a></li>
+		</ul>
+		</div>
+		
+        <div class="footerRow">© Made by PartyJoy All rights reserved. Photo source: Google Photo</div>
 	</footer>
 
 </body>

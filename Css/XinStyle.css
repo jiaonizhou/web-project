@@ -1,0 +1,162 @@
+*{margin:0px;padding:0px;}
+
+header{
+  width: 100%;
+}
+#logoImage {
+	height: 100%;
+	width: auto;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.logo {
+	width: 60%;
+	height: 10%;
+	float: left;
+}
+.signInUp {
+	width: 40%;
+	height: 10%;
+	float:left; 
+}
+
+.signInUpList {
+	list-style-type: none;
+  overflow: hidden; 
+  margin-left:155px
+}
+.signInUpList li{
+	float:left;
+	border: orange solid 3px;  
+	border-radius: 8px; 
+  margin-left:10px;
+  margin-top:20px
+}
+#logIn a{
+	padding: 14px 14px;
+	text-decoration: none;
+	font-family:Verdana;
+  font-size: 20px;
+}
+#signUp a{
+	padding: 14px 14px;
+	text-decoration: none;
+	font-family:Verdana;
+  font-size: 20px;
+}
+.NavList {
+	width:100%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b3b3ff ;
+}
+.NavList li{
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.subNavList{
+  padding: 14px 16px; width:150px;
+  position: absolute;
+  left: -999em;
+}
+.subNavList li{
+  float: none;
+  display: none;
+}
+.NavList li:hover .subNavList{
+  left: auto;
+  padding: 14px 16px; 
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.Nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:Verdana;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.Nav:hover {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+
+.homeExample{
+	width: 100%;
+	height: 80%;
+	background-color:lightgrey;
+}
+
+.howTo {
+  float: left;
+	width: 100%;
+	height: 30%;
+	background-color: lightpink;
+}
+
+.getStarted {
+  float: left;
+	width: 100%;
+	height: 20%;
+	background-color: lightblue;
+	font-family:Verdana;
+    font-size: 25px;
+    color: black;
+    text-decoration: none; 
+}
+footer {
+  float: left;
+  width: 100%;
+  //bottom: 0;
+}
+.footContainer{ overflow:hidden}
+.footContainer a{ color:#006666}
+.footerBar {
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b3b3ff ;
+}
+.footIcon{
+	float: left;
+    margin: 0;
+    padding: 0;
+}
+.foot {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:Verdana;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.mainbox{overflow:hidden; position:relative;}
+.flashbox{overflow:hidden;position:relative;}
+.imagebox{text-align:right;position:relative;z-index:999;}
+.bitdiv{display:inline-block;width:18px;height:18px;margin:0 10px 10px 0px;cursor:pointer;float:right;}
+.defimg{background-image:url(../Image/02.png)}
+.curimg{background-image:url(../Image/01.png)}
