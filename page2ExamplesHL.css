@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
 img {
    max-width: 100%;
    height: auto;
@@ -15,6 +19,7 @@ p {
 
 h2 {
 	color: #c34ff2;
+	font-size:: 50%;
 }
 
 
