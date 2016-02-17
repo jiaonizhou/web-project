@@ -60,9 +60,38 @@ h2 {
 
 
 
-/* howToPage------------------------------------------------------------- */
+/* instruction Page------------------------------------------------------------- */
+.instructionText {
+	font-size: 24px;
 
+}
 
+.arrowImage {
+	max-width: 900px;
+	height:auto;
+}
+
+.instructionImage {
+	max-width: 900px;
+	height:auto;
+	border-style: solid;
+	border-color: purple;
+	padding-top: 10px;
+}
+
+#instructionRow {
+	/*
+	border-radius: 10%;
+	border-style: solid;
+	border-color: purple;
+	*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.instructionImage:hover {
+	border-color: #FB9E2F;
+}
 
 /* Step 1 page------------------------------------------------------------- */
 
@@ -71,10 +100,25 @@ h2 {
     text-align: center;
 }
 
+.button {
+	background-color:white;
+	border-radius:50%;
+	border-style:none;
+}
+
+.button:hover {
+	border-style:groove;
+	border-color: #c34ff2;
+}
+
 .howToImage {
    max-width: 350px;
    height: auto;
    border-radius: 50%;
+}
+
+.ihowToImage:hover {
+	border-color: #FB9E2F;
 }
 
 .howToCaption {
