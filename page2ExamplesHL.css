@@ -19,7 +19,6 @@ p {
 
 h2 {
 	color: #c34ff2;
-	font-size:: 50%;
 }
 
 
@@ -54,17 +53,86 @@ h2 {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #ffffff;
+  color: #FB9E2F;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 
 
+/* howToPage------------------------------------------------------------- */
+
+
+
+/* Step 1 page------------------------------------------------------------- */
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.howToImage {
+   max-width: 350px;
+   height: auto;
+   border-radius: 50%;
+}
+
+.howToCaption {
+position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 100%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #c34ff2;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  font-size:20px;
+}
+
+.personCaption {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 100%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FB9E2F;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  font-size:24px;
+}
+
+.firstAndThrid {
+	float: left;
+}
+
+firstAndThridModi {
+	float: right;
+}
+
+.nav-bottom {
+	text-align: right;
+	list-style-type: none;
+}
+
+.prev-next {
+	display: inline;
+}
+
+.prev-next-pic {
+	width: 8%;
+	height: auto;
+}
+
 /* default ------------------------------------------------------------- */
 .row {
    width: 96%;
-   padding-top: 100px; 
+   padding-top: 50px; 
    max-width: 100%;
    margin: 0 auto;
 }
@@ -76,7 +144,6 @@ h2 {
 
 .row .row { 
    width: auto;
-
    max-width: none; 
    margin: 0 -20px 20px; 
 }
@@ -93,7 +160,7 @@ h2 {
 
 .column, .columns {
    position: relative;
-   padding: 0 20px;
+   padding: 0 0px;
    min-height: 1px;
    float: left;
 }
