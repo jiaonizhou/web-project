@@ -72,5 +72,44 @@
 
  #userInfo{
    font-size: 18px;
+ }
 
+ .dashBoardWrapper{
+   border: 2px solid red;
+   width:75%;
+   margin: auto;
+   background-color:white;
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 30px;
+ }
+
+ #dashBoardContent{
+   border: 2px solid red;
+   width:60%;
+   margin: auto;
+   background-color:white;
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 30px;
+ }
+
+  #dashBoardContent a{
+    text-decoration: none;
+    color: black;
+  }
+  #dashBoardContent a:hover{
+    color: blue;
+  }
+
+ .myAccountTitle{
+    width:70%;
+    margin: auto;
+    padding-bottom: 50px;
+ }
+
+ #dashBoardContent li{
+   list-style-type: none;
  }
