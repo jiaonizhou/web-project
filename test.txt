@@ -22,3 +22,17 @@ log-right: #ea46a2
 16: Page16CheckOut.html
 17: Page17Payment.html
 18: Page18Confirmation.html
+
+homepage (xin)
+- navigation bar
+- horizontal scroll
+- background image
+- link hover
+- how-to crop
+
+sign in/ up
+- link link hover affects
+
+
+responsive design
+mobile/ desktop
