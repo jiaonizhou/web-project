@@ -177,11 +177,11 @@ firstAndThridModi {
 }
 
 /* payment page------- */
-#containerPayment {
+#containerPayment{
 	padding-left: 10em;
 }
 
-form {
+form{
   border-style: solid;
   border-color: rgba(0,0,0,0.2);	
   padding-top: 1em;
@@ -193,13 +193,13 @@ form {
   text-align: left;
 }
 
-label {
+label{
   margin-bottom: 0;
   width: 100%;
   font-size: 1.5em;
 }
 
-input {
+input{
   display: block;
   border-bottom-style:solid;
   border-color: rgba(0,0,0,0.2);
@@ -212,12 +212,12 @@ input {
   background: transparent;
   padding-top:0.2em;
 }
-input:focus {
+input:focus{
   outline: none;
   border: 2px solid #5ed9eb;
   background: transparent;
 }
-input[type="submit"] {
+input[type="submit"]{
   width: 100%;
   background: rgba(94,217,235,0.3);
   text-transform: uppercase;
@@ -233,20 +233,20 @@ input[type="submit"] {
   font-weight: bold;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover{
   background: #5ed9eb;
   border-color: #5ed9eb;
   color: #fff;
 }
-::-webkit-input-placeholder {
+::-webkit-input-placeholder{
   color: rgba(0,0,0,0.16);
 }
-:-moz-placeholder {
+:-moz-placeholder{
 /* Firefox 18- */
   color: rgba(0,0,0,0.2);
   font-style: italic;
 }
-::-moz-placeholder {
+::-moz-placeholder{
 /* Firefox 19+ */
   color: rgba(0,0,0,0.2);
   font-style: italic;
@@ -260,14 +260,42 @@ input[type="submit"]:hover {
 #confirmation {
 	width: 70%;
 	float: center;
+	border-style:solid;
+	border-color: rgba(0,0,0,0.2);
+	  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  
+}
+
+.confirmationText {
+	color: grey;
 }
 
 #confirmation2 {
 	width: 70%;
 	float: center;
+	border-style:solid;
+	border-color: rgba(0,0,0,0.2);
+	  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #confirmationFirst {
+	/*
+	border-style: solid;
+   border-color: rgba(0,0,0,0.2);
+   */	
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom:2em;
+  margin: 0;
+  text-align: left;
+}
+
+#confirmationFirst2 {
 	border-style: solid;
    border-color: rgba(0,0,0,0.2);	
   padding-top: 1em;
@@ -299,12 +327,17 @@ border-style: none;
   margin:0;
 }
 
+#confirmationImage{
+	padding-top: 3em;
+	float:left;
+}
+
 .sponsorImage{
-padding-left: 3em;
+	padding-left: 3em;
 }
 
 .sponsorImage:hover {
-	border-color: #FB9E2F;
+	opacity: 0.7;
 }
 
 /* default ------------------------------------------------------------- */
