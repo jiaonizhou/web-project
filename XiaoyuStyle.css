@@ -4,7 +4,7 @@ body {
 }
 
 .sign-head{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   font-size: 25px;
   font-weight: bold;
@@ -19,7 +19,7 @@ body {
   background: white;
   border: 3px solid #ebebeb;
   border-color: #000000;
-  border-radius: 4px;
+  nborder-radius: 10px;
 }
 
 .sign-up-input .sign-in-input:focus {
@@ -45,10 +45,11 @@ body {
 
 
  .SignUp{
-     border: 2px solid red;
-     width:75%;
+     border: 1px solid black;
+     width:60%;
+     border-radius: 10px;
      margin: auto;
-     background-color:white;
+     background-color:#d6ebf2;  /* background color for the form*/
      padding-top: 50px;
      padding-right: 30px;
      padding-bottom: 50px;
@@ -56,10 +57,11 @@ body {
  }
 
  .SignIn {
-     border: 2px solid red;
+     border: 2px solid black;
+     border-radius: 10px;
      width:75%;
      margin: auto;
-     background-color:white;
+     background-color:#d6ebf2;  /* background color for the form*/
      padding-top: 50px;
      padding-right: 30px;
      padding-bottom: 50px;
@@ -68,10 +70,12 @@ body {
 
 
  #submitButton1{
-   width: 40%;
-   height: 30px;
+   width: 30%;
+   height: 40px;
    float: right;
    font-size: 18px;
+   border-color: #67818a;
+   border-radius: 10px;
  }
 
  #userInfo{
@@ -79,7 +83,7 @@ body {
  }
 
  .dashBoardWrapper{
-   border: 2px solid red;
+   border: 1px solid white;
    width:75%;
    margin: auto;
    background-color:white;
@@ -90,10 +94,11 @@ body {
  }
 
  #dashBoardContent{
-   border: 2px solid red;
-   width:60%;
+   border: 1px solid black;
+   width:70%;
    margin: auto;
-   background-color:white;
+   background-color:#d6ebf2;  /* background color for the form*/
+   border-radius: 10px;
    padding-top: 50px;
    padding-right: 30px;
    padding-bottom: 50px;
@@ -104,6 +109,15 @@ body {
     text-decoration: none;
     color: black;
   }
+
+  #comingParty a{
+    color: blue;
+  }
+
+  #bookMarked  a{
+    color: blue;
+  }
+
   #dashBoardContent a:hover{
     color: blue;
   }
@@ -187,6 +201,7 @@ body {
  [class*="column"] + [class*="column"].end { float: right; }
 
  /* column widths */
+ .row .half        { width: 4.16667%; }
  .row .one         { width: 8.33333%; }
  .row .two         { width: 16.66667%; }
  .row .three       { width: 25%; }
