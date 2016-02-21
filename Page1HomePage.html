@@ -1,18 +1,23 @@
+
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
 	<title>PartyJoy | Homepage</title>
+	<!---common-->
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---css & js-->
     <link rel="stylesheet" type="text/css" href="Css/Page1HomePageStyle.css">
+    <link rel="stylesheet" type="text/css" href="Css/commonStyle.css">
 	<script src="Js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="Js/pptBox.js"></script>
+	<!---favicon-->
 	<link rel="shortcut icon" href="Image/logo.png" >
     <link rel="icon" href="Image/logo.png">
-	<script type="text/javascript" src="Js/pptBox.js"></script>
 </head>
 <body>
-	<header>
+	<div class="header">
 		<div class="logo">
 			<img id="logoImage" src="Image/headerLogoImage.png" alt="logo" />
 		</div>
@@ -22,10 +27,11 @@
 				<li id="signUp"><a title="Signup to PartyJoy" href="Page4SignUpXiaoyu.html">Sign Up</a></li>	
 			</ul>
 		</div>
-	</header>
-	<nav>
+	</div>
+	
+	<div class="navbar">
 		<div class="dropdown">
-		  <button class="dropbtn"><a href="Page1HomePage.html"></a>Home</button>
+		  <button class="dropbtn"><a href="Page1HomePage.html">Home</a></button>
 		</div>
 
 		<div class="dropdown">
@@ -54,56 +60,57 @@
 		    <a href="Page12Step4.html">Drinks</a>
 		    <a href="Page12Step4.html">Dessert</a>
 		    <a href="Page12Step4.html">Snacks</a>
-		    <a href="Page12Step4.html">Special</a>
 		  </div>
 		</div>
 
 		<div class="dropdown">
 		  <button class="dropbtn">Decoration</button>
 		  <div class="dropdown-content">
-		  	<a href="#">Dining Utensil</a>
-		    <a href="#">Firework</a>
-		    <a href="#">Ballon</a>
-		    <a href="#">Flower</a>
-		    <a href="#">Lighting</a>
-		    <a href="#">Accessory</a>
+		  	<a href="Page13Step5.html">Table</a>
+		    <a href="Page13Step5.html">Flower</a>
+		    <a href="Page13Step5.html">Ballon</a>
+		    <a href="Page13Step5.html">Accessories</a>
+		    <a href="Page13Step5.html">Lighting</a>
 		  </div>
 		</div>
 
 		<div class="dropdown">
 		  <button class="dropbtn">Service</button>
 		  <div class="dropdown-content">
-		    <a href="#">Emcee</a>
-		    <a href="#">Music/DJ</a>
-		    <a href="#">Photo</a>
-		    <a href="#">Waiter</a>
-		    <a href="#">Cleaning</a>
+		    <a href="Page14Step6.html">EMC&DJ</a>
+		    <a href="Page14Step6.html">Photo</a>
+		    <a href="Page14Step6.html">Video</a>
+		    <a href="Page14Step6.html">Cleaning</a>
+		    <a href="Page14Step6.html">Serving</a>
 		  </div>
-		</div>
+	</div>
 
 		<div class="dropdown">
-		  <button class="dropbtn">Dress</button>
+		  <button class="dropbtn">Attire</button>
 		  <div class="dropdown-content">
-		    <a href="#">Attire</a>
-		    <a href="#">Make Up/DJ</a>
-		    <a href="#">Hair Style</a>
+		    <a href="Page15Step7.html">Dress</a>
+		    <a href="Page15Step7.html">Suit</a>
+		    <a href="Page15Step7.html">Hair Style</a>
+		    <a href="Page15Step7.html">Makeup</a>
+
 		  </div>
 		</div>
 
 		<div class="dropdown">
 		  <button class="dropbtn">Example</button>
 		  <div class="dropdown-content">
-		    <a href="#">Wedding</a>
-		    <a href="#">Birthday Party</a>
-		    <a href="#">House Warming</a>
-		    <a href="#">Baby Shower</a>
+		    <a href="page2ExamplesHL.html">Wedding</a>
+		    <a href="page2ExamplesHL.html">Birthday Party</a>
+		    <a href="page2ExamplesHL.html">House Warming</a>
+		    <a href="page2ExamplesHL.html">Baby Shower</a>
 		  </div>
 		</div>
 
 		<div class="dropdown">
-		  <button class="dropbtn">More</button>
+		  <button class="dropbtn"><a href="contactUS.html">More</a></button>
 		</div>	
-	</nav>
+		</div>
+	
 
 	<div id="focus" style="text-align: center"  >
 			 <script>
@@ -131,9 +138,8 @@
 
 	
 
-
-	<footer>
-		<div class="footContainer">
+<!---footer-->
+	<div class="footer"> 
 			<div class="social">
 				<p>Connect with Us: </p>
 		    	<a href="http://www.facebook.com"><img src="Image/facebook.png" alt="facebookicon" /> </a>
@@ -141,15 +147,15 @@
 		    	<a href="http://www.twitter.com"><img src="Image/twitter.png" alt="twittericon" /> </a>
 		    	<a href="http://www.instagram.com"><img src="Image/ins.png" alt="insicon" /> </a>
 		    </div>
-		
-				<a class="foot" href="#">About Us</a>
-				<a class="foot" href="#">Contact Us</a>
-				<a class="foot" href="#">Career</a>
-				<a class="foot" href="#">Help</a>
-	        <div class="footerRow">© Made by PartyJoy All rights reserved. Photo source: Google Photo</div>
-        </div>
-	</footer>
-
+		    <div class="footnavbar">
+				<a class="foot" href="aboutUs.html">About Us</a>
+				<a class="foot" href="contactUS.html">Contact Us</a>
+				<a class="foot" href="career.html">Career</a>
+				<a class="foot" href="help.html">Help</a>
+			</div>
+	        <div class="copyright">© Made by PartyJoy All rights reserved. Photo source: Google Photo</div>       
+	</div> 
+<!---footer end-->
 </body>
 </html>
 
