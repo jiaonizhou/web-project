@@ -1,6 +1,4 @@
 
-
-
 .homeExample{
 	width: 100%;
 	height: 80%;
@@ -13,38 +11,86 @@
   padding-left: 200px;
   text-align: center;
 }
+/*---how to---*/
 .howTo {
   float: left;
 	width: 100%;
-	height: 20%;
-	background-color: lightpink;
+	height: 50%;
   text-align: center;
   margin-top: 5px;
-  padding-top: 20px;
+}
+
+.howtocontainer {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  left: 10%;
+  border: white solid 2px;
+  background: linear-gradient(white, #e6f3ff); 
+}
+
+#howtoimage {
+  height: 100%;
+  width: auto;
+  float: right;
+}
+
+.howto p {
+  font-family: verdana;
+  color: grey;
+  font-size: 25px;
+  position: relative;
+  top: 15%;
 }
 
 .howTo a{
   font-family: verdana;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
+  padding: 10px;
+  background-color: #80bfff;
   text-decoration: none;
+  position: absolute;
+  right: 55%;
+  bottom: 20%;
+  
+}
+.howTo a:hover{
+  background-color: grey;
+}
+span {
+  font-size: 32px;
+  color: #b3b3ff;
 }
 
+/*---get started---*/
 .getStarted {
   float: left;
 	width: 100%;
 	height: 15%;
-	background-color: lightblue;
 	text-align: center;
-  margin-top: 5px;
-  padding-top: 30px;
-
+  margin-top: 10px;
+}
+.getstartcontainer {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  left: 10%;
+  
+  background: linear-gradient(white, #e6f3ff); 
 }
 .getStarted a {
   font-family:Verdana;
   font-size: 25px;
-  color: black;
+  color: white;
   text-decoration: none;
+  background-color: #80bfff;
+  padding: 10px 20px;
+  position: relative;
+  top: 30%;
+}
+.getStarted a:hover{
+  background-color: grey;
 }
 
 

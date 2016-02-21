@@ -94,7 +94,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -138,7 +138,8 @@
 }
 .footnavbar {
   margin-top: 5px;
-}.foot {
+}
+.foot {
   width: 20%;
   float: left;
   color: grey;
@@ -148,7 +149,6 @@
   text-decoration: none;
   margin-left: 50px;
 }
-
 .copyright{
   width: 100%;
   text-align: center;
