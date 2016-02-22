@@ -4,12 +4,13 @@
 
 }
 .singleStepContainer {
+	
 	width: 13%;
 	height: 100%;
 	float: left;
-	border: black solid 2px;
 	text-align: center;
 	position: relative;
+	margin: 7px;
 }
 .icon{
 	width: 120px;
@@ -42,6 +43,7 @@
 }
 
 .total {
+	margin-top: 50px;
 	width: 100%;
 	height: auto;
 	text-align: right;
@@ -51,10 +53,15 @@
 	padding-right: 100px;
 }
 .paynow{
+	margin-top: 30px;
 	height: 40px;
-	width: 60px;
+	width: 80px;
 	background-color: orange;
 	text-align: right;
 	margin-right: 100px;
 	float: right;
+}
+.paynow a{
+	text-decoration: none;
+	font-family: verdana;
 }
