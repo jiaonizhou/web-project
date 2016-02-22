@@ -4,14 +4,12 @@ body {
 
 .headline {
 	font-size: 2.5em;
+	border: double;
 }
 
 .category {
 	text-align: center;
-}
-
-.headline {
-	border: double;
+	clear: left;
 }
 
 .option {
@@ -150,3 +148,29 @@ a.link {
     box-shadow: 0 0 2px 1px purple;
     transition: 0.3s;
 }
+
+#openings {
+	text-align: center;
+	clear: left;
+}
+
+li {
+	list-style: none;
+}
+
+#marketing {
+	text-align: center;
+}
+
+#sales {
+	text-align: center;
+}
+
+#technology {
+	text-align: center;
+}
+
+#finance {
+	text-align: center;
+}
+

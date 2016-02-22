@@ -56,10 +56,12 @@
   margin-bottom: 10px;
   width: 100%;
   text-align: center;
-  background-color: #b3b3ff;
+  position: relative;
   float: left;
+  background-color: #b3b3ff;
   padding: 0;
 }
+
 .dropbtn {
     background-color: #b3b3ff;
     color: white;
