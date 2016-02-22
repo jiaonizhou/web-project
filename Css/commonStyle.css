@@ -1,5 +1,7 @@
 /*---header---*/
-
+.header {
+  width: 100%;
+}
 #logoImage {
 	height: 100%;
 	width: auto;
@@ -55,6 +57,8 @@
   width: 100%;
   text-align: center;
   background-color: #b3b3ff;
+  float: left;
+  padding: 0;
 }
 .dropbtn {
     background-color: #b3b3ff;
