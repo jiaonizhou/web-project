@@ -1,22 +1,32 @@
-img{
-	width: 50px;
-	height: 50px;
+.listicon{
+	width: 80px;
+	height: 80px;
 	
+	position: relative;
+	left: 30%;
 }
 
 .packageContainer {
 	width: 100%;
 	display: inline-block;
-	margin-bottom: 50px;
+	margin: 50px 0;
 }
 .package {
 	width: 30%;
+	height: 30%;
 	float: left;
 	text-align: center;
+	margin-left: 20px;	
 }
- 
-p {
+.package a {
 	font-family: verdana;
+	text-decoration: none;
+	position: relative;
+	top: 40%;
+	font-size: 20px;
+}
+.package a:hover {
+	color: grey;
 }
 
 .basicinfo{
@@ -50,25 +60,23 @@ label {
 	margin-top: 5px;
 	margin-right: 5px;
 }
-.pagenav {
-	width: 100%;
-	display: inline-block;
+
+.nav {
+	position: static;
+}
+
+.nav-bottom {
+	list-style-type: none;
 	text-align: right;
-	margin-top: 50px;
 }
-.button {
-    background-color: #4CAF50;
-    border: none;
-    font-size: 28px;
-    color: #FFFFFF;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
+
+.prev-next {
+	display: inline;
 }
-.button a {
-	text-decoration: none;
-	color: white;
+
+.prev-next-pic {
+	width: 6%;
+	height: auto;
 }
+
+

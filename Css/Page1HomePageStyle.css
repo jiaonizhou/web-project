@@ -4,13 +4,7 @@
 	height: 80%;
 	background-color:lightgrey;
 }
-.focus{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 200px;
-  text-align: center;
-}
+
 /*---how to---*/
 .howTo {
   float: left;
@@ -93,10 +87,29 @@ span {
   background-color: grey;
 }
 
+.focus{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 200px;
+  text-align: center;
+}
+.slideimage{
+  width: 100%;
+  text-align: center;
+  display: block;
+  float: left;
+}
 
-.mainbox{overflow:hidden; position:relative;}
+.mainbox{overflow:hidden; position:relative; left: 13%;}
 .flashbox{overflow:hidden;position:relative;}
 .imagebox{text-align:right;position:relative;z-index:999;}
 .bitdiv{display:inline-block;width:18px;height:18px;margin:0 10px 10px 0px;cursor:pointer;float:right;}
 .defimg{background-image:url(../Image/02.png)}
 .curimg{background-image:url(../Image/01.png)}
+
+
+
+
+
+
