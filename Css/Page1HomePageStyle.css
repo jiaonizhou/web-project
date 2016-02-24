@@ -19,7 +19,6 @@
   height: 100%;
   position: relative;
   left: 10%;
-  border: white solid 2px;
   background: linear-gradient(white, #e6f3ff); 
 }
 
@@ -29,7 +28,7 @@
   float: right;
 }
 
-.howto p {
+.howtocontainer p {
   font-family: verdana;
   color: grey;
   font-size: 25px;
@@ -70,7 +69,6 @@ span {
   height: 100%;
   position: relative;
   left: 10%;
-  
   background: linear-gradient(white, #e6f3ff); 
 }
 .getStarted a {
@@ -80,8 +78,6 @@ span {
   text-decoration: none;
   background-color: #80bfff;
   padding: 10px 20px;
-  position: relative;
-  top: 30%;
 }
 .getStarted a:hover{
   background-color: grey;

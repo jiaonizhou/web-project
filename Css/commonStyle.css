@@ -33,7 +33,7 @@
 	border: orange solid 3px;  
 	border-radius: 8px; 
   margin-left:10px;
-  margin-top:20px
+  margin-top:20px;
   bottom:20px;
 }
 #logIn a{
@@ -61,7 +61,28 @@
   background-color: #b3b3ff;
   padding: 0;
 }
+.nodropdown {
+  text-decoration: none;;
+  font-family: verdana;
+  color: white;
+  height: 100%;
+}
 
+#home {
+  height: 100%;
+  padding: 16px;
+}
+#home:hover {
+  background-color: lightgrey;
+}
+
+#more {
+  height: 100%;
+  padding: 16px;
+}
+#more:hover {
+  background-color: lightgrey;
+}
 .dropbtn {
     background-color: #b3b3ff;
     color: white;
