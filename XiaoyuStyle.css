@@ -209,11 +209,29 @@ body {
   padding-top: 30px;
 }
 
+.helpContainer a{
+  text-decoration: none;
+  color: #ac7339;
+}
+
+
+.helpContainer a:hover{
+  color: #c34ff2;
+}
+
 #question{
   color: #0044cc;
 }
 #answer{
   color:  black;
+}
+
+#contactInfo {
+  color: #0044cc;
+  font-weight: bold;
+}
+#customerList{
+  list-style-type: none;
 }
 
  /* default ------------------------------------------------------------- */
