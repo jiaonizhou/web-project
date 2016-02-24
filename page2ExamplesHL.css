@@ -200,7 +200,7 @@ label{
   font-size: 1.5em;
 }
 
-input{
+input, textarea{
   display: block;
   border-bottom-style:solid;
   border-color: rgba(0,0,0,0.2);
@@ -218,6 +218,13 @@ input:focus{
   border: 2px solid #5ed9eb;
   background: transparent;
 }
+
+textarea:focus{
+	  outline: none;
+  border: 2px solid #5ed9eb;
+  background: transparent;
+}
+
 input[type="submit"]{
   width: 100%;
   background: rgba(94,217,235,0.3);
@@ -457,6 +464,10 @@ height: 100px;
 
 }
 
+#seeConfirm {
+	text-align:center;
+	padding-left:6em;
+}
 
 
 
