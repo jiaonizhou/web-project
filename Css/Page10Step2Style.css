@@ -23,6 +23,7 @@
 	text-decoration: none;
 	position: relative;
 	top: 40%;
+	left: 30%;
 	font-size: 20px;
 }
 .package a:hover {
@@ -53,7 +54,8 @@ label {
 	font-family: Verdana;
 	font-size: 20px;
 	padding-left: 20px;
-	vertical-align: middle;
+	padding-top: 15px;
+	
 }
 .infoDetails {
 	height: 16%;
